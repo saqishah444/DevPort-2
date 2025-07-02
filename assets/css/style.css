@@ -13,6 +13,9 @@ body{
 .shadow-sm{
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;;
 }
+.fw-boldlarge{
+    font-weight: 900 !important;
+}
 .navbar-brand{  
     font-size: 24px !important;
 }
@@ -31,14 +34,30 @@ nav ul li{
 .header-img{
     transition: all 0.3s ease;
 }
-.header-img:hover{
+.header-img:hover img{
     transform: scale(1.015);
 }
 .hr-about{
-    width: 50px !important;
-    height: 5px !important;
+    width: 75px !important;
+    height: 1px !important;
     color: #0d6efd !important;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
+    border: 2px solid #0d6efd;
+    opacity: 1 !important;
+    margin-left: -8.5%;
 
+}
+
+.about-img{
+    transition: all 0.3s ease;
+}
+.about-img:hover{
+    transform: scale(1.015);
+}
+.about-para{
+    font-size: 18px;
+}
+#about p{
+    font-size: 18px;
 }
