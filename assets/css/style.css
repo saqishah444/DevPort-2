@@ -2,6 +2,7 @@ body{
     font-family: "Poppins", sans-serif;
     background-color: #f8f9fa;
     transition: all 0.3s ease ;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -28,11 +29,12 @@ a{
 }
 
 .shadow-sm{
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
 }
 .fw-boldlarge{
     font-weight: 900 !important;
 }
+
 .navbar-brand{  
     font-size: 24px !important;
 }
@@ -92,18 +94,22 @@ nav ul li{
 #about p{
     font-size: 18px;
 }
-.about-cards{
-    transition: all .3s ease;
-      
-}
+/* .about-cards{
+    transition: all .3s ease;  
+} */
 .about-cards:hover{
-transform: scale(1.053);
+    transition: all .3s ease !important; 
+transform: scale(1.055) !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+
 }
 #about p{
     font-weight: 500 !important;
 }
+
+
 #services{
-    margin-top: 130px;
+    margin-top: 130px !important;
 }
 .hr-services{
     width: 100px !important;
@@ -158,4 +164,9 @@ transform: scale(1.053);
     background-color: rgba(255, 255, 255, 0.479);
     transition: all .3s ease;
     opacity: 0;
+}
+
+#call-to-action{
+    margin-top: 50px;
+    background-color: #0d6efd;
 }
