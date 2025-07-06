@@ -34,6 +34,24 @@ a{
 .fw-boldlarge{
     font-weight: 900 !important;
 }
+.back-to-top-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 1;
+    z-index: 100;
+    transition: all 0.5s ease;
+    
+}
+.back-to-top-btn .btn{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+
+}
+
 
 .navbar-brand{  
     font-size: 24px !important;
@@ -63,6 +81,7 @@ nav ul li{
 
 .fw-bold1{
     font-weight: 800;
+    
     
 }
 
@@ -94,9 +113,7 @@ nav ul li{
 #about p{
     font-size: 18px;
 }
-/* .about-cards{
-    transition: all .3s ease;  
-} */
+
 .about-cards:hover{
     transition: all .3s ease !important; 
 transform: scale(1.055) !important;
@@ -172,5 +189,37 @@ transform: scale(1.055) !important;
 }
 #contact{
     margin-top: 100px;
+    border-bottom: 1px solid rgb(221, 218, 218);
+    padding-bottom: 50px;
+}
+.footer-icons{
+    height: 35px;
+    width: 35px;
+    border: 1px solid #0d6efd;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.footer-icons:hover{
+background-color: #0d6efd;
+border: transparent;
+ i{
+    color: white !important;
+ }
 }
 
+.quick-links a{
+    color:#6c757d !important ;
+}
+
+.email-input{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.subscribe-btn{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    margin-left: -2px !important;
+}
